@@ -2,7 +2,7 @@
 layout: page
 title: Events & Talks
 permalink: /events.html
-ref: now
+ref: events
 order: 2
 ---
 
