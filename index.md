@@ -5,7 +5,7 @@
 # Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
+layout: page
 ---
 
 The DARWIN (DAzzling Realization of dWarf galaxies In the Next generation of cosmological hydrodynamic simulations) project has been launched under the collaboration of more than 20 young scientists from seven institutes in Korea since 2022.
