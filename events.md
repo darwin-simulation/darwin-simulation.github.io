@@ -3,7 +3,7 @@ layout: page
 title: Events & Talks
 permalink: /events.html
 ref: events
-order: 2
+order: 1
 ---
 
 # 2023
