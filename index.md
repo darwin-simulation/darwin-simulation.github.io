@@ -8,10 +8,10 @@
 layout: home
 ---
 
-Cayman Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
+The DARWIN (DAzzling Realization of dWarf galaxies In the Next generation of cosmological hydrodynamic simulations) project has been launched under the collaboration of more than 20 young scientists from seven institutes in Korea since 2022.
+The DARWIN project aims at simulating the formation and evolution of dwarf galaxies, a key probe for testing both the galaxy formation models and standard cosmology, with a high resolution based on state-of-the-art physical ingredients in a cosmological context using gigantic computing resources.
 
-This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
+The DARWIN project will investigate the evolution and formation of dwarf galaxies using three step simulations.
+Cosmological box - several environments with ~100pc resolution - single dwarves with <10pc resolution
+RAMSES should be highly optimized for the MPI+OMP+GPU parallelism to achieve the goals using the next generation supercomputer at KISTI. 
 
-Have a look at the Github page for more information.
-
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
