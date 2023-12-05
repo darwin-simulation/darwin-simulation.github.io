@@ -4,9 +4,14 @@
     {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
     {% assign page_refs = site.header_page_refs | default: default_refs %}
 
-    <!--{% if page.layout != 'home' %}-->
-      <a class="site-title" href="{{ "/" | absolute_url }}"> <img src="/images/logo/darwin.png" height=100px /> <!--{{ site.title | escape }}--> </a>
-    <!--{% endif %}-->
+    <!--
+    {% if page.layout != 'home' %}
+    -->
+      <a class="site-title" href="{{ "/" | absolute_url }}"><img src="/images/logo/{{ site.logo }}" height=100px /></a> 
+    <!--
+    {{ site.title | escape }}</a>
+    {% endif %}
+    -->
 
     {% if page_refs %}
       <nav class="site-nav">
