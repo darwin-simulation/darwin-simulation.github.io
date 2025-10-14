@@ -8,7 +8,7 @@ order: 1
 # 2025
 - February 10th-12th, [2025 DARWIN-Dwarf Galaxy Researchers' Workshop](https://sites.google.com/view/2025darwin/), Korea Institute of Science and Technology Information, Daejeon
 <center>
-<img src="images/events/2025_darwin_dwarf_workshop_group_photo.png" width=500px />
+<img src="images/events/2025_darwin_dwarf_workshop_group_photo.jpg" width=500px />
 </center>
 
 # 2023
