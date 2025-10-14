@@ -11,7 +11,7 @@ order: 3
 ## DARWIN-1
 Please see [DARWIN-1 data structure](data_structure.html) to use the data.
 
-| Snapshot \# | Scale Factor | Redshift | Lookback Time [Gyr] | Galaxy Catalog | Subhalos | Unbounded |
+| Snapshot \# | Scale Factor | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 |---|---|---|---|---|---|---|
 |16	|0.081870	|11.214418	|13.392749 | N/A |N/A |N/A |
 |27	|0.106145	|8.421075	|13.200677 |N/A | N/A |N/A |
