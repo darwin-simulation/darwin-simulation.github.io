@@ -24,7 +24,7 @@ To achieve this goal, it will use a heavily modified version of the [RAMSES](htt
 <img src="images/logo/kisti.png" height=50px /> &nbsp;&nbsp;
 <img src="images/logo/kias.png" height=50px /> &nbsp;&nbsp;
 <img src="images/logo/yonsei.jpg" height=40px /> &nbsp;&nbsp;
-<img src="images/logo/kyunghee.png" height=50px /> &nbsp;&nbsp;
+<img src="images/logo/kyunghee.png" height=40px /> &nbsp;&nbsp;
 <img src="images/logo/snu.png" height=50px /> &nbsp;&nbsp;
 <img src="images/logo/cnu.png" height=50px /> &nbsp;&nbsp;
 <img src="images/logo/uos.png" height=30px /> &nbsp;&nbsp;
