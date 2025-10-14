@@ -13,14 +13,14 @@ Please see [DARWIN-1 data structure](data_structure.html) to use the data.
 
 <center>
 | Snapshot \# | Scale Factor | Redshift | Lookback Time [Gyr] | Galaxy Catalog | Subhalos | Unbounded |
-|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 |16	|0.081870	|11.214418	|13.392749 | N/A |N/A |N/A |
 |27	|0.106145	|8.421075	|13.200677 |N/A | N/A |N/A |
 |35	|0.128217	|6.799279	|13.005799 |N/A |N/A |N/A |
 |42	|0.151253	|5.611431	|12.783937 | N/A|N/A |N/A |
 |47	|0.170207	|4.875216	|12.588438 | N/A|N/A |N/A |
 |51	|0.187066	|4.345704	|12.405398 | N/A|N/A |N/A |
-|55	|0.204674	|3.885824	|12.205619 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/00055/catalog_00055.hdf5)| [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/00055/unbound_00055.hdf5) |
+|55	|0.204674	|3.885824	|12.205619 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/00055/catalog_00055.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/00055/unbound_00055.hdf5) |
 |59	|0.221619	|3.512253	|12.005520 | N/A|N/A |N/A |
 |69	|0.237951	|3.202547	|11.805793 | N/A|N/A |N/A |
 |85	|0.253797	|2.940164	|11.605918 | N/A|N/A |N/A |
