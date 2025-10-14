@@ -15,7 +15,7 @@ The DARWIN project will investigate the evolution and formation of dwarf galaxie
 To achieve this goal, it will use a heavily modified version of the [RAMSES](https://bitbucket.org/rteyssie/ramses/) hydrodynamic code with the MPI+OMP+GPU parallelism and the next-generation supercomputer at [Korea Insitute of Science and Technology Information](https://www.kisti.re.kr/eng/). 
 <center>
 <a href="images/darwin_concept_highres.png"><img src="images/darwin_concept.jpg" width=600px /></a>
-(click the image to see high-resolution version)
+<p>(click the image to see high-resolution version)</p>
 </center>
 
 ## Affiliations
