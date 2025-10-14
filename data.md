@@ -48,15 +48,11 @@ Please see [DARWIN-1 data structure](data_structure.html) to use the data.
 |622	|0.55759286	|0.79342324	|7.00941699 | N/A|N/A |N/A |
 |642	|0.5696954	|0.755324	|6.81014782 | N/A|N/A |N/A |
 
-### 
-
 
 ## DARWIN-2
-Please see [DARWIN-2 data structure](data_structure.html) to use the data.
-
-### 
+N/A
 
 ## DARWIN-3
-
+N/A
 
 [Go to the Home Page]({{ '/' | absolute_url }})
