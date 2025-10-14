@@ -5,20 +5,37 @@ permalink: /data.html
 ref: data
 order: 3
 ---
-## 2025
-- February 10th-12th, [2025 DARWIN-Dwarf Galaxy Researchers' Workshop](https://sites.google.com/view/2025darwin/), Korea Institute of Science and Technology Information, Daejeon
-<center>
-<img src="images/events/2025_darwin_dwarf_workshop_group_photo.jpg" width=500px />
-</center>
-
-## 2024
-- May 7th-10th, [The 2nd CTP Bosan Workshop: AGORA in Asia + 5th Numerical Galaxy Formation Meeting in Korea](https://ngfagora.github.io/), Seoul National University, Seoul
-
-## 2023
-<!-- - August 22nd, Special Session: Solving the Climate & Astronomy Problems with Supercomputers at [2023 Korea Supercomputing Conference](https://www.ksc.re.kr/notice/event/ksc2023#menu409), The-K Hotel, Seoul -->
-- August 16th-17th, [2023 DARWIN-Dwarf Galaxy Researchers' Workshop](https://sites.google.com/view/2023darwin), Korea Astronomy and Space Science Institute, Daejeon
-<center>
-<img src="images/events/2023_darwin_dwarf_workshop_group_photo.png" width=500px />
-</center>
+## Overview
+| | | DARWIN-1 | DARWIN-2 | DARWIN-3 |
+|:--:|:--:|:--:|:--:|:--:|
+| Boxsize | | 65Mpc | Zoom-in (from DARWIN-1) | Zoom-in (from DARWIN-1&2) |
+| Min (res) | | 500 pc | 62.5 pc | 4 pc |
+| Min (m<sub>DM</sub>) | | 900,000 M<sub>⊙</sub> | 17,000 M<sub>⊙</sub> | 2,200 M<sub>⊙</sub> |
+| Min (m<sub>star</sub>) | | 100,000 M<sub>⊙</sub> | 2,000 M<sub>⊙</sub> | 500 M<sub>⊙</sub> |
+<!-- Cooling Cloudy + Koyama+(02) Cloudy + Koyama+(02) 
++ Non-eq. for H, He
+ Cloudy + Koyama+(02) 
++ Non-eq. for H, He, H2 (PRISM)
+ Star 
+formation
+ model Density-based Gravo-thermo-turbulent 
+(Kimm+17)
+ SINK-based 
+(Blueuer & Teyssier 15; Kang+25)
+ SFE_ff 100 % Variable On the fly
+ Type II SN
+ model Mechanical (at 5 Myr) Mechanical
+ boost Z-dependent E51~2 
+Yield Portinari+(98) Limongi & Chieffi (18) Limongi & Chieffi (18)
+ Type Ia SN model Thermal
+ Yield Seitenzahl+(13)
+ AGN model Dubois+(21) 
+Chemical 
+species H, Fe, O H, Fe, O, N, Mg H, He, Fe, O, N, Mg, 
+Ne, Si, Ca, C, S
+ Radiation
+ Photons-Three bins above 13.6 eV Six bins above 5.6 eV
+ Feedback-PIH, DP PIH, DP, PEH
+-->
 
 [Go to the Home Page]({{ '/' | absolute_url }})
