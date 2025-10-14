@@ -15,4 +15,4 @@ N/A
 ## DARWIN-3
 N/A
 
-[Go to the Data Access Page]({{ '/' | data }})
+[Go to the Data Access Page](data.html)
