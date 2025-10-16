@@ -11,7 +11,7 @@ order: 0
 - Lee, Jaehyun (Co-PI; Korea Astronomy and Space Science Institute)
 - [Hong, Sungwook E.](https://cosmology.kasi.re.kr/members.php?member=swhong) (PM; Korea Astronomy and Space Science Institute)
 - [Choi, Ena](https://sites.google.com/site/astroenachoi/) (University of Seoul)
-- Gwon, Oh-kyung (Korea Institute for Science and Technology Information)
+- Kwon, Oh-kyung (Korea Institute for Science and Technology Information)
 - [Jeon, Myoungwon](https://sites.google.com/site/myjeon01/) (Kyung Hee University)
 - [Kim, Ji-hoon](https://physics.snu.ac.kr/cosmo/index/index.html) (Seoul National University)
 - [Kim, Juhan](https://astro.kias.re.kr/~kjhan/) (Korea Institute for Advanced Study)
