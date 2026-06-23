@@ -6,8 +6,16 @@ ref: data_darwin1
 order: 5
 ---
 
-## DARWIN-1
-Please see [DARWIN-1 data structure](data_structure.md) to use the data.
+## Simulation Overview
+Please see [Simulation Overview](data.html) for details.
+
+| Box Size | Minimum Resolution | Minimum DM Particle Mass | Minimum Stellar Particle Mass | Chemical Species |
+| ----- | ----- | ----- | ----- | ----- |
+| 65 Mpc | 500 pc | 9 x 10<sup>5</sup> M<sub>sun</sub> | 10<sup>5</sup> M<sub>sun</sub> | H, Fe, O |
+
+
+## Data Access
+Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------ | ------ | ------ | ------ | ------ | ------ |
