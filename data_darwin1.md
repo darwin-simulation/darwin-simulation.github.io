@@ -17,8 +17,8 @@ Please see [Simulation Overview](data.html) for details.
 ## Data Access
 Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
-<button class="collapsible">Snapshots 1-59 (z: 3.5-, Lookback Time: 12-13.8 Gyr)</button>
-<div class="content">
+<button class="collapsible" data-target="table_1_59">Snapshots 1-59 (z: 3.5-, Lookback Time: 12-13.8 Gyr)</button>
+<div id="table_1_59" class="content">
   
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -83,8 +83,8 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
 </div>
 
-<button class="collapsible">Snapshots 60-312 (z: 1.3-3.5, Lookback Time: 9-12 Gyr)</button>
-<div class="content">
+<button class="collapsible" data-target="table_60_312">Snapshots 60-312 (z: 1.3-3.5, Lookback Time: 9-12 Gyr)</button>
+<div id="table_60_312" class="content">
   
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -151,8 +151,8 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
 </div>
 
-<button class="collapsible">Snapshots 319- (z: 0.22-1.3$$, Lookback Time: 2.76-9 Gyr): <b>N/A</b></button>
-<div class="content">
+<button class="collapsible" data-target="table_319">Snapshots 319- (z: 0.22-1.3$$, Lookback Time: 2.76-9 Gyr): <b>N/A</b></button>
+<div id="table_319" class="content">
 
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -285,3 +285,17 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 </div>
 
 [Go to the Home Page]({{ '/' | absolute_url }})
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll(".collapsible").forEach(function(button) {
+    button.addEventListener("click", function() {
+      const targetId = this.getAttribute("data-target");
+      const content = document.getElementById(targetId);
+      if (content) {
+        content.classList.toggle("show");
+      }
+    });
+  });
+});
+</script>
