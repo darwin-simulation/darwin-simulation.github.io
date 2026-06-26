@@ -17,8 +17,8 @@ Please see [Simulation Overview](data.html) for details.
 ## Data Access
 Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
-<details>
-<summary>Snapshots 1-59 ($$z > 3.5$$, Lookback Time: 12-13.8 Gyr)</summary>
+<button class="collapsible">Snapshots 1-59 (z: 3.5-, Lookback Time: 12-13.8 Gyr)</button>
+<div class="content">
   
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -81,10 +81,10 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 58 | 3.598919 | 12.055530 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0058/catalog_0058.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0058/unbound_0058.hdf5) |
 | 59 | 3.512253 | 12.005520 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0059/catalog_0059.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0059/unbound_0059.hdf5) |
 
-</details>
+</div>
 
-<details>
-<summary>Snapshots 60-312 ($$1.3 < z < 3.5$$, Lookback Time: 9-12 Gyr)</summary>
+<button class="collapsible">Snapshots 60-312 (z: 1.3-3.5, Lookback Time: 9-12 Gyr)</button>
+<div class="content">
   
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -149,11 +149,10 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 307 | 1.322282 | 9.057909 | N/A | N/A | N/A |
 | 312 | 1.305307 | 9.008236 | N/A | N/A | N/A |
 
+</div>
 
-</details>
-
-<details>
-<summary>Snapshots 319- ($$0.22 < z < 1.3$$, Lookback Time: 2.76-9 Gyr): <b>N/A</b></summary>
+<button class="collapsible">Snapshots 319- (z: 0.22-1.3$$, Lookback Time: 2.76-9 Gyr): <b>N/A</b></button>
+<div class="content">
 
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -283,6 +282,6 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 967 | 0.22742361 | 2.81384547 | N/A | N/A | N/A |
 | 972 | 0.22258124 | 2.76269778 | N/A | N/A | N/A |
 
-</details>
+</div>
 
 [Go to the Home Page]({{ '/' | absolute_url }})
