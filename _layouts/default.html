@@ -49,6 +49,57 @@
         
         
         <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url }}">
+
+  <!-- Added by SWHong: 2026-06-26 -->
+  <style>
+    /* 버튼 스타일 - Cayman Theme 색상 계열 */
+    .collapsible {
+      cursor: pointer;
+      padding: 8px 14px;
+      background-color: #2c3e50; /* Cayman의 다크 블루 계열 */
+      color: #fff;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.95rem;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .collapsible:hover {
+      background-color: #1abc9c; /* Cayman의 포인트 그린 */
+    }
+
+    /* 접기/펼치기 콘텐츠 */
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+      opacity: 0;
+      margin-top: 10px;
+    }
+    .content.show {
+      max-height: 500px; /* 충분히 큰 값 */
+      opacity: 1;
+    }
+
+    /* 표 스타일 - Cayman Theme에 맞게 */
+    .content table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+    .content th, .content td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .content th {
+      background-color: #f4f4f4;
+      color: #2c3e50;
+    }
+    .content tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+  </style>
     </head>
     <body>
         
@@ -157,6 +208,16 @@
                 }
                 return false;
             }  
+
+            <!-- Added by SWHong: 2026-06-26 -->
+            document.addEventListener("DOMContentLoaded", function() {
+              document.querySelectorAll(".collapsible").forEach(function(button) {
+                button.addEventListener("click", function() {
+                  const content = this.nextElementSibling;
+                  content.classList.toggle("show");
+                });
+              });
+            });
         </script>
         
     </body>
