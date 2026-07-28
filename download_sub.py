@@ -12,34 +12,20 @@ def main():
     snapshot = args.snapshot
     sub_id = args.id
 
-    id_start,id_end = get_id_range(snapshot,sub_id)
+    id_start,id_end = get_id_range(snapshot, sub_id)
 
-    filename = download_substructure(snapshot, id_start, id_end)
+    filename = download_substructure(snapshot, sub_id, id_start, id_end)
     print(f"Download file: {filename}")
 
 def get_id_range(snapshot, sub_id):
-    id_start = (sub_id - 1) // 400 * 400 + 1
-    id_end = id_start + 399
-    print(f"First guess for substructure ID range: {id_start} - {id_end}")
+    id_start = sub_id // 1000 * 1000
+    id_end = id_start + 999
     
-    filename = f"catalog_{snapshot:05d}.hdf5"
-    url = f"https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/{snapshot:05d}/{filename}"
-    download_file(url, filename)
-    print(f"Downloaded catalog file: {filename} for ID range verification.")
-
-    with h5py.File(filename, "r") as f:
-        nsub = len(f['sub/halo_index'])
-        if id_start > nsub:
-            raise ValueError("Substructure ID exceeds the number of substructures in this snapshot.")
-        if id_end > nsub:
-            id_end = nsub
-
-    print(f"Substructure ID range found: {id_start} - {id_end}")
     return id_start, id_end
 
-def download_substructure(snapshot, id_start, id_end):
-    filename = f"sub_{snapshot:05d}.hdf5"
-    url = f"https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/{snapshot:05d}/{id_start:03d}_{id_end}/{filename}"
+def download_substructure(snapshot, sub_id, id_start, id_end):
+    filename = f"sub_{snapshot:04d}_{sub_id:05d}.hdf5"
+    url = f"https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/{snapshot:04d}/{id_start:06d}_{id_end:06d}/{filename}"
     download_file(url, filename)
     return filename
 
