@@ -17,9 +17,6 @@ Please see [Simulation Overview](data.html) for details.
 ## Data Access
 Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
-<button class="collapsible" data-target="table_1_59">Snapshots 1-59 (z: 3.5-, Lookback Time: 12-13.8 Gyr)</button>
-<div id="table_1_59" class="content">
-  
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
 | 1 | 200.000005 | 13.790297 | N/A | N/A | N/A |
@@ -80,14 +77,6 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 57 | 3.690060 | 12.105674 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0057/catalog_0057.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0057/unbound_0057.hdf5) |
 | 58 | 3.598919 | 12.055530 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0058/catalog_0058.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0058/unbound_0058.hdf5) |
 | 59 | 3.512253 | 12.005520 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0059/catalog_0059.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0059/unbound_0059.hdf5) |
-
-</div>
-
-<button class="collapsible" data-target="table_60_312">Snapshots 60-312 (z: 1.3-3.5, Lookback Time: 9-12 Gyr)</button>
-<div id="table_60_312" class="content">
-  
-| Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
-| ------: | ------: | ------: | :------: | :------: | :------: |
 | 60 | 3.429723 | 11.955651 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0060/catalog_0060.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0060/unbound_0060.hdf5) |
 | 61 | 3.350716 | 11.905711 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0061/catalog_0061.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0061/unbound_0061.hdf5) |
 | 65 | 3.275096 | 11.855770 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0065/catalog_0065.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0065/unbound_0065.hdf5) |
@@ -118,12 +107,12 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 169 | 2.053649 | 10.606767 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0169/catalog_0169.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0169/unbound_0169.hdf5) |
 | 174 | 2.021308 | 10.556681 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0174/catalog_0174.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0174/unbound_0174.hdf5) |
 | 178 | 1.990001 | 10.506964 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0178/catalog_0178.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0178/unbound_0178.hdf5) |
-| 183 | 1.959296 | 10.456978 | N/A | N/A | N/A |
-| 187 | 1.929194 | 10.406759 | N/A | N/A | N/A |
-| 191 | 1.900093 | 10.357023 | N/A | N/A | N/A |
-| 195 | 1.871607 | 10.307173 | N/A | N/A | N/A |
-| 199 | 1.843463 | 10.256766 | N/A | N/A | N/A |
-| 203 | 1.816464 | 10.207304 | N/A | N/A | N/A |
+| 183 | 1.959296 | 10.456978 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0183/catalog_0183.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0183/unbound_0183.hdf5) |
+| 187 | 1.929194 | 10.406759 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0187/catalog_0187.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0187/unbound_0187.hdf5) |
+| 191 | 1.900093 | 10.357023 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0191/catalog_0191.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0191/unbound_0191.hdf5) |
+| 195 | 1.871607 | 10.307173 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0195/catalog_0195.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0195/unbound_0195.hdf5) |
+| 199 | 1.843463 | 10.256766 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0199/catalog_0199.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0199/unbound_0199.hdf5) |
+| 203 | 1.816464 | 10.207304 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0203/catalog_0203.hdf5) | [Available](data_structure.html) | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0203/unbound_0203.hdf5) |
 | 208 | 1.789709 | 10.157147 | N/A | N/A | N/A |
 | 212 | 1.763635 | 10.107161 | N/A | N/A | N/A |
 | 216 | 1.738203 | 10.057308 | N/A | N/A | N/A |
@@ -148,14 +137,6 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 302 | 1.339790 | 9.108329 | N/A | N/A | N/A |
 | 307 | 1.322282 | 9.057909 | N/A | N/A | N/A |
 | 312 | 1.305307 | 9.008236 | N/A | N/A | N/A |
-
-</div>
-
-<button class="collapsible" data-target="table_319">Snapshots 319- (z: 0.22-1.3$$, Lookback Time: 2.76-9 Gyr): <b>N/A</b></button>
-<div id="table_319" class="content">
-
-| Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
-| ------: | ------: | ------: | :------: | :------: | :------: |
 | 319 | 1.288565 | 8.958384 | N/A | N/A | N/A |
 | 324 | 1.271881 | 8.907916 | N/A | N/A | N/A |
 | 332 | 1.255801 | 8.858455 | N/A | N/A | N/A |
@@ -173,66 +154,66 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 429 | 1.079420 | 8.259037 | N/A | N/A | N/A |
 | 437 | 1.066077 | 8.209053 | N/A | N/A | N/A |
 | 445 | 1.052733 | 8.158374 | N/A | N/A | N/A |
-| 452 | 1.03998314 | 8.10922843 | N/A | N/A | N/A |
-| 460 | 1.02719796 | 8.05930694 | N/A | N/A | N/A |
-| 468 | 1.01443311 | 8.00867522 | N/A | N/A | N/A |
-| 475 | 1.00206817 | 7.95904317 | N/A | N/A | N/A |
-| 482 | 0.98990101 | 7.90955118 | N/A | N/A | N/A |
-| 490 | 0.97772782 | 7.85933825 | N/A | N/A | N/A |
-| 497 | 0.96556242 | 7.80851507 | N/A | N/A | N/A |
-| 506 | 0.9539876 | 7.75948999 | N/A | N/A | N/A |
-| 513 | 0.94238915 | 7.70970668 | N/A | N/A | N/A |
-| 520 | 0.93080438 | 7.65937248 | N/A | N/A | N/A |
-| 527 | 0.91931996 | 7.60884196 | N/A | N/A | N/A |
-| 535 | 0.90827766 | 7.55961745 | N/A | N/A | N/A |
-| 543 | 0.89726881 | 7.50994903 | N/A | N/A | N/A |
-| 552 | 0.88623683 | 7.4595708 | N/A | N/A | N/A |
-| 560 | 0.87530044 | 7.40901196 | N/A | N/A | N/A |
-| 568 | 0.86482647 | 7.35994393 | N/A | N/A | N/A |
-| 577 | 0.85432136 | 7.31014733 | N/A | N/A | N/A |
-| 585 | 0.84382744 | 7.2598216 | N/A | N/A | N/A |
-| 594 | 0.83336685 | 7.20905695 | N/A | N/A | N/A |
-| 603 | 0.82336265 | 7.15994128 | N/A | N/A | N/A |
-| 611 | 0.8133619 | 7.11026135 | N/A | N/A | N/A |
+| 452 | 1.039983 | 8.10922843 | N/A | N/A | N/A |
+| 460 | 1.027198 | 8.05930694 | N/A | N/A | N/A |
+| 468 | 1.014433 | 8.00867522 | N/A | N/A | N/A |
+| 475 | 1.002068 | 7.95904317 | N/A | N/A | N/A |
+| 482 | 0.989901 | 7.90955118 | N/A | N/A | N/A |
+| 490 | 0.977728 | 7.85933825 | N/A | N/A | N/A |
+| 497 | 0.965562 | 7.80851507 | N/A | N/A | N/A |
+| 506 | 0.953988 | 7.75948999 | N/A | N/A | N/A |
+| 513 | 0.942389 | 7.70970668 | N/A | N/A | N/A |
+| 520 | 0.930804 | 7.65937248 | N/A | N/A | N/A |
+| 527 | 0.919320 | 7.60884196 | N/A | N/A | N/A |
+| 535 | 0.908278 | 7.55961745 | N/A | N/A | N/A |
+| 543 | 0.897269 | 7.50994903 | N/A | N/A | N/A |
+| 552 | 0.886237 | 7.4595708 | N/A | N/A | N/A |
+| 560 | 0.875300 | 7.40901196 | N/A | N/A | N/A |
+| 568 | 0.864826 | 7.35994393 | N/A | N/A | N/A |
+| 577 | 0.854321 | 7.31014733 | N/A | N/A | N/A |
+| 585 | 0.843827 | 7.2598216 | N/A | N/A | N/A |
+| 594 | 0.833367 | 7.20905695 | N/A | N/A | N/A |
+| 603 | 0.823363 | 7.15994128 | N/A | N/A | N/A |
+| 611 | 0.813362 | 7.11026135 | N/A | N/A | N/A |
 | 618 | 0.803389 | 7.06010764 | N/A | N/A | N/A |
-| 622 | 0.79342324 | 7.00941699 | N/A | N/A | N/A |
-| 628 | 0.78377422 | 6.95978226 | N/A | N/A | N/A |
-| 633 | 0.77429206 | 6.91046125 | N/A | N/A | N/A |
-| 637 | 0.7648171 | 6.86063121 | N/A | N/A | N/A |
+| 622 | 0.793423 | 7.00941699 | N/A | N/A | N/A |
+| 628 | 0.783774 | 6.95978226 | N/A | N/A | N/A |
+| 633 | 0.774292 | 6.91046125 | N/A | N/A | N/A |
+| 637 | 0.764817 | 6.86063121 | N/A | N/A | N/A |
 | 642 | 0.755324 | 6.81014782 | N/A | N/A | N/A |
-| 647 | 0.74585586 | 6.75923742 | N/A | N/A | N/A |
-| 652 | 0.73684565 | 6.71025688 | N/A | N/A | N/A |
-| 658 | 0.72785654 | 6.6608714 | N/A | N/A | N/A |
-| 662 | 0.7188296 | 6.61073535 | N/A | N/A | N/A |
-| 667 | 0.70983674 | 6.56025237 | N/A | N/A | N/A |
-| 672 | 0.70091583 | 6.5096379 | N/A | N/A | N/A |
-| 677 | 0.69234785 | 6.46051092 | N/A | N/A | N/A |
-| 681 | 0.68382744 | 6.41114317 | N/A | N/A | N/A |
-| 686 | 0.67528766 | 6.36115919 | N/A | N/A | N/A |
-| 691 | 0.66672688 | 6.31052653 | N/A | N/A | N/A |
-| 697 | 0.65819941 | 6.25956428 | N/A | N/A | N/A |
-| 701 | 0.65009089 | 6.21061121 | N/A | N/A | N/A |
-| 705 | 0.64200591 | 6.16131658 | N/A | N/A | N/A |
-| 710 | 0.63389763 | 6.11138857 | N/A | N/A | N/A |
-| 714 | 0.62579514 | 6.06100235 | N/A | N/A | N/A |
-| 719 | 0.61769119 | 6.01010742 | N/A | N/A | N/A |
-| 723 | 0.60986086 | 5.960443 | N/A | N/A | N/A |
-| 727 | 0.60218629 | 5.91131149 | N/A | N/A | N/A |
-| 732 | 0.5944744 | 5.86142898 | N/A | N/A | N/A |
-| 736 | 0.5868583 | 5.81170597 | N/A | N/A | N/A |
-| 741 | 0.57916008 | 5.76098092 | N/A | N/A | N/A |
-| 746 | 0.57148736 | 5.70994331 | N/A | N/A | N/A |
-| 750 | 0.56418304 | 5.66091306 | N/A | N/A | N/A |
-| 754 | 0.55691003 | 5.61165668 | N/A | N/A | N/A |
-| 758 | 0.5496564 | 5.56209733 | N/A | N/A | N/A |
-| 762 | 0.54241034 | 5.51204935 | N/A | N/A | N/A |
-| 765 | 0.53511696 | 5.4612088 | N/A | N/A | N/A |
-| 770 | 0.52786499 | 5.41019929 | N/A | N/A | N/A |
-| 774 | 0.52093627 | 5.36107621 | N/A | N/A | N/A |
-| 778 | 0.51406965 | 5.31203793 | N/A | N/A | N/A |
-| 782 | 0.50719245 | 5.26240417 | N/A | N/A | N/A |
-| 786 | 0.50031893 | 5.21232794 | N/A | N/A | N/A |
-| 789 | 0.49343588 | 5.16176879 | N/A | N/A | N/A |
+| 647 | 0.745856 | 6.75923742 | N/A | N/A | N/A |
+| 652 | 0.736846 | 6.71025688 | N/A | N/A | N/A |
+| 658 | 0.727857 | 6.6608714 | N/A | N/A | N/A |
+| 662 | 0.718830 | 6.61073535 | N/A | N/A | N/A |
+| 667 | 0.709837 | 6.56025237 | N/A | N/A | N/A |
+| 672 | 0.700916 | 6.5096379 | N/A | N/A | N/A |
+| 677 | 0.692348 | 6.46051092 | N/A | N/A | N/A |
+| 681 | 0.683827 | 6.41114317 | N/A | N/A | N/A |
+| 686 | 0.675288 | 6.36115919 | N/A | N/A | N/A |
+| 691 | 0.666727 | 6.31052653 | N/A | N/A | N/A |
+| 697 | 0.658199 | 6.25956428 | N/A | N/A | N/A |
+| 701 | 0.650091 | 6.21061121 | N/A | N/A | N/A |
+| 705 | 0.642006 | 6.16131658 | N/A | N/A | N/A |
+| 710 | 0.633898 | 6.11138857 | N/A | N/A | N/A |
+| 714 | 0.625795 | 6.06100235 | N/A | N/A | N/A |
+| 719 | 0.617691 | 6.01010742 | N/A | N/A | N/A |
+| 723 | 0.609861 | 5.960443 | N/A | N/A | N/A |
+| 727 | 0.602186 | 5.91131149 | N/A | N/A | N/A |
+| 732 | 0.594474 | 5.86142898 | N/A | N/A | N/A |
+| 736 | 0.586858 | 5.81170597 | N/A | N/A | N/A |
+| 741 | 0.579160 | 5.76098092 | N/A | N/A | N/A |
+| 746 | 0.571487 | 5.70994331 | N/A | N/A | N/A |
+| 750 | 0.564183 | 5.66091306 | N/A | N/A | N/A |
+| 754 | 0.556910 | 5.61165668 | N/A | N/A | N/A |
+| 758 | 0.549656 | 5.56209733 | N/A | N/A | N/A |
+| 762 | 0.542410 | 5.51204935 | N/A | N/A | N/A |
+| 765 | 0.535117 | 5.4612088 | N/A | N/A | N/A |
+| 770 | 0.527865 | 5.41019929 | N/A | N/A | N/A |
+| 774 | 0.520936 | 5.36107621 | N/A | N/A | N/A |
+| 778 | 0.514070 | 5.31203793 | N/A | N/A | N/A |
+| 782 | 0.507192 | 5.26240417 | N/A | N/A | N/A |
+| 786 | 0.500319 | 5.21232794 | N/A | N/A | N/A |
+| 789 | 0.493436 | 5.16176879 | N/A | N/A | N/A |
 | 793 | 0.48656979 | 5.11091829 | N/A | N/A | N/A |
 | 798 | 0.47987312 | 5.06088328 | N/A | N/A | N/A |
 | 801 | 0.47337918 | 5.01186434 | N/A | N/A | N/A |
