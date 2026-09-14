@@ -17,6 +17,60 @@ Please see [Simulation Overview](data.html) for details.
 ## Data Access
 Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 
+<!-- DataTables CSS 및 Cayman 테마 디자인 보정 -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<style>
+.dataTables_wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #606c71;
+  margin: 1.5rem 0;
+}
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 5px 8px;
+  outline: none;
+}
+.dataTables_wrapper .dataTables_filter input:focus {
+  border-color: #159957;
+  box-shadow: 0 0 0 3px rgba(21, 153, 87, 0.15);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #159957 !important;
+  color: #ffffff !important;
+  border: 1px solid #159957 !important;
+  border-radius: 4px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #155799 !important;
+  color: #ffffff !important;
+  border: 1px solid #155799 !important;
+  border-radius: 4px;
+}
+/* FOUC (로딩 시 순간적인 깜빡임) 방지 */
+.table-responsive-wrapper {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  overflow-x: auto;
+}
+.table-responsive-wrapper.ready {
+  opacity: 1;
+}
+table.dataTable {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 10px 0 !important;
+}
+table.dataTable thead th {
+  background-color: #f6f8fa;
+  color: #159957;
+  border-bottom: 2px solid #e1e4e8 !important;
+}
+</style>
+
+<div class="table-responsive-wrapper">
+  
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
 | 1 | 200.000005 | 13.790297 | N/A | N/A | N/A |
@@ -263,4 +317,35 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
 | 967 | 0.227424 | 2.813845 | N/A | N/A | N/A |
 | 972 | 0.222581 | 2.762698 | N/A | N/A | N/A |
 
+</div>
+
+<!-- jQuery 및 DataTables 라이브러리 및 실행 스크립트 -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const checkAndInit = setInterval(function() {
+    if (window.jQuery && $.fn.DataTable) {
+      clearInterval(checkAndInit);
+      const $table = $('.table-responsive-wrapper table');
+      if ($table.length) {
+        $table.DataTable({
+          "pageLength": 25,
+          "lengthMenu": ,
+          "language": {
+            "search": "검색:",
+            "lengthMenu": "_MENU_ 개씩 보기",
+            "info": "전체 _TOTAL_개 중 _START_ - _END_",
+            "paginate": {
+              "previous": "이전",
+              "next": "다음"
+            }
+          }
+        });
+        $('.table-responsive-wrapper').addClass('ready');
+      }
+    }
+  }, 100);
+});
+</script>
 [Go to the Home Page]({{ '/' | absolute_url }})
