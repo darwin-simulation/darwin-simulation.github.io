@@ -48,14 +48,8 @@ Please see [DARWIN-1 data structure](data_structure.md) for the data structure.
   border: 1px solid #155799 !important;
   border-radius: 4px;
 }
-/* FOUC (로딩 시 순간적인 깜빡임) 방지 */
 .table-responsive-wrapper {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
   overflow-x: auto;
-}
-.table-responsive-wrapper.ready {
-  opacity: 1;
 }
 table.dataTable {
   width: 100% !important;
@@ -69,7 +63,7 @@ table.dataTable thead th {
 }
 </style>
 
-<div class="table-responsive-wrapper">
+<div class="table-responsive-wrapper" markdown="1">
   
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog | Substructures | Unbounded |
 | ------: | ------: | ------: | :------: | :------: | :------: |
@@ -324,14 +318,14 @@ table.dataTable thead th {
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const checkAndInit = setInterval(function() {
+  var checkAndInit = setInterval(function() {
     if (window.jQuery && $.fn.DataTable) {
       clearInterval(checkAndInit);
-      const $table = $('.table-responsive-wrapper table');
+      var $table = $('.table-responsive-wrapper table');
       if ($table.length) {
         $table.DataTable({
           "pageLength": 25,
-          "lengthMenu": ,
+          "lengthMenu": [4],
           "language": {
             "search": "검색:",
             "lengthMenu": "_MENU_ 개씩 보기",
@@ -342,10 +336,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
           }
         });
-        $('.table-responsive-wrapper').addClass('ready');
       }
     }
   }, 100);
 });
 </script>
+
 [Go to the Home Page]({{ '/' | absolute_url }})
