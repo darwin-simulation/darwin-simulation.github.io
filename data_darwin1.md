@@ -310,6 +310,13 @@ table.dataTable thead th {
 | 962 | 0.232279 | 2.864560 | N/A | N/A | N/A |
 | 967 | 0.227424 | 2.813845 | N/A | N/A | N/A |
 | 972 | 0.222581 | 2.762698 | N/A | N/A | N/A |
+| 977	| 0.217836 | 2.712470 | N/A | N/A | N/A |
+| 980	| 0.213243 | 2.663432 | N/A | N/A | N/A |
+| 984	| 0.208698 | 2.614665 | N/A | N/A | N/A |
+| 988	| 0.204139 | 2.565248 | N/A | N/A | N/A |
+| 992 | 0.199567 | 2.515682 | N/A | N/A | N/A |
+| 997 | 0.195003 | 2.465654 | N/A | N/A | N/A |
+| 1001 | 0.190438 | 2.415401 | N/A | N/A | N/A |
 
 </div>
 
@@ -327,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function() {
           "pageLength": 25,
           "lengthMenu": [10,25,50,100],
           "language": {
-            "search": "Search:",
+            "search": "Search: ",
             "lengthMenu": "Show _MENU_ entries",
             "info": "Showing _START_ to _END_ of _TOTAL_ entries",
             "paginate": {
