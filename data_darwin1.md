@@ -325,14 +325,14 @@ document.addEventListener("DOMContentLoaded", function() {
       if ($table.length) {
         $table.DataTable({
           "pageLength": 25,
-          "lengthMenu": [4],
+          "lengthMenu": [10,25,50,100],
           "language": {
-            "search": "검색:",
-            "lengthMenu": "_MENU_ 개씩 보기",
-            "info": "전체 _TOTAL_개 중 _START_ - _END_",
+            "search": "Search:",
+            "lengthMenu": "Show _MENU_ entries",
+            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
             "paginate": {
-              "previous": "이전",
-              "next": "다음"
+              "previous": "Previous",
+              "next": "Next"
             }
           }
         });
