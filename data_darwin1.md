@@ -58,17 +58,23 @@ table.dataTable {
   width: 100% !important;
   border-collapse: collapse !important;
   margin: 10px 0 !important;
+  display: table !important; /* Cayman 테마의 display: block 무효화 */
+  table-layout: fixed !important; /* 내용물 크기 대신 100% 비율을 강제 적용 */
 }
 table.dataTable thead th {
   background-color: #f6f8fa;
   color: #159957;
   border-bottom: 2px solid #e1e4e8 !important;
 }
+/* 각 4개 열의 너비 비율을 명시적으로 지정 */
+table.dataTable th:nth-child(1) { width: 20% !important; } /* Snapshot # */
+table.dataTable th:nth-child(2) { width: 25% !important; } /* Redshift */
+table.dataTable th:nth-child(3) { width: 25% !important; } /* Lookback Time [Gyr] */
+table.dataTable th:nth-child(4) { width: 30% !important; } /* FoF/Galaxy Catalog */
 </style>
 
 <div class="table-responsive-wrapper" markdown="1">
 
-<center>
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog |
 | ------: | ------: | ------: | :------: |
 | 2 | 15.998911 | 13.550491 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0002/catalog_0002.hdf5) |
@@ -321,7 +327,6 @@ table.dataTable thead th {
 | 997 | 0.195003 | 2.465654 | In Preparation |
 | 1001 | 0.190438 | 2.415401 | In Preparation |
 
-</center>
 </div>
 
 <!-- jQuery 및 DataTables 라이브러리 및 실행 스크립트 -->
@@ -336,6 +341,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if ($table.length) {
         $table.DataTable({
           "pageLength": 25,
+          "autoWidth": false, // 자바스크립트의 자동 폭 계산 끄기
           "lengthMenu": [10,25,50,100],
           "language": {
             "search": "Search: ",
