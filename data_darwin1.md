@@ -67,7 +67,8 @@ table.dataTable thead th {
 </style>
 
 <div class="table-responsive-wrapper" markdown="1">
-  
+
+<center>
 | Snapshot # | Redshift | Lookback Time [Gyr] | FoF/Galaxy Catalog |
 | ------: | ------: | ------: | :------: |
 | 2 | 15.998911 | 13.550491 | [Download](https://archive.kasi.re.kr/darwin/coconas/Darwin/Darwin1/0002/catalog_0002.hdf5) |
@@ -320,6 +321,7 @@ table.dataTable thead th {
 | 997 | 0.195003 | 2.465654 | In Preparation |
 | 1001 | 0.190438 | 2.415401 | In Preparation |
 
+</center>
 </div>
 
 <!-- jQuery 및 DataTables 라이브러리 및 실행 스크립트 -->
